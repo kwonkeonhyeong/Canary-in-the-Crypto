@@ -30,11 +30,20 @@ public class BinanceAggTradeDto {
     @JsonProperty("s")
     private String symbol;
 
+    @JsonProperty("a")
+    private String aggregateTradeId;
+
     @JsonProperty("p")
     private String price;
 
     @JsonProperty("q")
     private String quantity;
+
+    @JsonProperty("f")
+    private String firstTradeId;
+
+    @JsonProperty("l")
+    private String lastTradeId;
 
     @JsonProperty("E")
     private Long eventTime;
